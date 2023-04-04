@@ -63,7 +63,7 @@ main button {
     border-radius: 2px;
     width: 200px;
     margin-bottom: 1.5em;
-    transition: transform 0.2s, background-color 0.2s, color 0.1s;
+    transition: transform 0.2s ease-in-out, background-color 0.2s, color 0.1s;
 }
 
 main button:hover {
@@ -72,6 +72,10 @@ main button:hover {
     color: #10B981;
     transition-delay: 0, 0.1s;
     cursor: pointer;
+}
+
+main button:active {
+    transform: scale(1);
 }
 
 main div {
