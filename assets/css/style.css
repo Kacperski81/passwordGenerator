@@ -1,0 +1,92 @@
+:root {
+    --inter-font: 'Inter', sans-serif;
+    --karla-font: 'Karla', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #1F2937;
+    font-family: var(--inter-font);
+}
+
+ol,ul {
+    list-style: none;
+}
+
+main {
+    max-width: 550px;
+    max-height: 550px;
+    width: 550px;
+    height: 550px;
+    margin: 20px auto 0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 1px #fff inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 2em;
+}
+
+main h1 {
+    font-family: var(--karla-font);
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #fff;
+    font-weight: 800;
+}
+
+main h1 span {
+    display: block;
+    color: #4ADF86;
+}
+
+main h3 {
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 2em;
+}
+
+main button {
+    background-color: #10B981;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    width: 200px;
+    margin-bottom: 1.5em;
+    transition: transform 0.2s, background-color 0.2s, color 0.1s;
+}
+
+main button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #10B981;
+    transition-delay: 0, 0.1s;
+    cursor: pointer;
+}
+
+main div {
+    display: flex;
+    border-top: 1px solid #2F3E53;
+    padding-top: 1em;
+    justify-content: space-between;
+}
+
+main div p {
+    background-color: #273549;
+    color: #55F991;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    flex-basis: 48%;
+    text-align: center;
+}
